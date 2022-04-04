@@ -223,7 +223,7 @@ var img = new Image();
 function refresh() {
   img.src =
     "https://raw.githubusercontent.com/Ender0112/Transgender-Flag-Template/main/place.png";
-  //img.crossOrigin = "Anonymous";
+  img.crossOrigin = "Anonymous";
   return img;
 }
 
