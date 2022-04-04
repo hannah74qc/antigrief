@@ -7,8 +7,8 @@
 // @match        https://hot-potato.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        none
-// @downloadURL  https://raw.githubusercontent.com/hannah74qc/antigrief/main/antigrief.user.js
-// @updateURL    https://raw.githubusercontent.com/hannah74qc/antigrief/main/antigrief.user.js
+// @downloadURL  https://github.com/hannah74qc/antigrief/raw/main/antigrief.user.js
+// @updateURL    https://github.com/hannah74qc/antigrief/raw/main/antigrief.user.js
 // ==/UserScript==
 
 // ANTIGRIEF SCRIPT
@@ -223,7 +223,7 @@ var img = new Image();
 function refresh() {
   img.src =
     "https://raw.githubusercontent.com/Ender0112/Transgender-Flag-Template/main/place.png";
-  img.crossOrigin = "Anonymous";
+  //img.crossOrigin = "Anonymous";
   return img;
 }
 
